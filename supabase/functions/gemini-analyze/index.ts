@@ -77,7 +77,7 @@ Deno.serve(async (req) => {
         headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
         body: JSON.stringify({
           contents: [{ parts: [{ text: buildPrompt(products) }] }],
-          generationConfig: { temperature: 0.3, maxOutputTokens: 512, responseMimeType: "application/json" },
+          generationConfig: { temperature: 0.3, maxOutputTokens: 2048, responseMimeType: "application/json" },
         }),
       },
     );
