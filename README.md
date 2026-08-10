@@ -45,3 +45,15 @@ O front-end consome diretamente os serviços do Lovable Cloud (Supabase) via SDK
 ## Documentação
 
 O relatório técnico completo, incluindo arquitetura detalhada, apêndice de prompts utilizados e análise do código gerado por IA, está disponível na pasta `/docs` deste repositório.
+
+## Minha contribuição
+
+No projeto, fiquei responsável principalmente pela definição do fluxo da aplicação e por decisões funcionais e técnicas do sistema.
+
+Minhas principais contribuições foram:
+
+- Implementação e configuração da integração com a API do Gemini para os recursos de Inteligência Artificial da aplicação.
+- Definição do fluxo de navegação do usuário, estruturando o caminho desde o acesso ao sistema até as principais funcionalidades.
+- Definição das camadas e regras de segurança da aplicação.
+- Desenvolvimento e organização do dashboard, apresentando uma visão geral das entradas e saídas do estoque.
+- Organização das responsabilidades da equipe durante a apresentação do projeto, distribuindo os tópicos e funcionalidades apresentados por cada integrante.
