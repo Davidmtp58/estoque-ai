@@ -42,10 +42,6 @@ PWA (Progressive Web App) — funciona no navegador e pode ser instalado como ap
 
 O front-end consome diretamente os serviços do Lovable Cloud (Supabase) via SDK. Dois triggers em PL/pgSQL automatizam as regras de negócio centrais: `apply_movement` atualiza o estoque a cada entrada/saída registrada, e `compute_product_status` recalcula o status do produto considerando estoque mínimo e data de validade. A integração com a Gemini AI é feita via Edge Function, mantendo a chave de API protegida no back-end.
 
-## Documentação
-
-O relatório técnico completo, incluindo arquitetura detalhada, apêndice de prompts utilizados e análise do código gerado por IA, está disponível na pasta `/docs` deste repositório.
-
 ## Minha contribuição
 
 No projeto, fiquei responsável principalmente pela definição do fluxo da aplicação e por decisões funcionais e técnicas do sistema.
